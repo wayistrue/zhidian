@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    background:orange;
+}
+.header>img{
+    padding:6px 0;
+    padding-left:10%;
+}
+.middle{
+    padding:20px 10%;
+}
+.middle::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.middle>.left{
+    width: 20%;
+    float: left;
+}
+.middle>.left>ul{
+    list-style: none;
+}
+.middle>.left>ul>li{
+    border:1px solid #ddd;
+    height:50px;
+    line-height: 50px;
+    padding-left:20px;
+}
+.middle>.left>ul>li:nth-child(2),.middle>.left>ul>li:hover{
+    color:orange;
+    border-left: 2px solid orange;
+    cursor: pointer;
+}
+.middle>.right{
+    width:80%;
+    float: left;
+}
+.middle>.right>div{
+    width:100%;
+    padding:0 20px;
+}
+.Introduction>p{
+    text-indent: 30px;
+    margin:30px 0;
+    color:rgba(0,0,0,0.7);
+}
+.Introduction>h1>span{
+    color:rgba(0,0,0,0.3);
+    font-size: 24px;
+}
+.Introduction>div{
+    position: relative;
+}
+.Introduction>div>div{
+    float: left;
+    position: absolute;
+    left: 125px;
+    top:490px;
+}
+.Introduction>div>div:last-child{
+    left: 260px;
+    top:490px;
+}
+.Introduction>div>div>p,.Introduction>div>div>h4{
+    margin:10px 0;
+}
+footer{
+    width:100%;
+    height:200px;
+}
+iframe{
+    width:100%;
+    height:100%;
+}

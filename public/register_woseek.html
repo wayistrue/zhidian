@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <script src="Js/register_woseek.js"></script>
+    <link rel="stylesheet" href="css/register_woseek.css">
+</head>
+<body onload="getVerificationCode()">
+    <div id="logo">
+        <img src="./source/wuliu-logo.png" alt="">
+    </div>
+    <div id="content">
+        <div id="info">
+            <ul id="title">
+                <li>我是货主</li>
+            </ul>
+            <div id="regInfo">
+                <div id="leftInfoDiv">
+                    <p>
+                        手机号码 ：
+                    </p>
+                    <p>
+                        登录密码 ：
+                    </p>
+                    <p>
+                        确定密码 ：                  
+                    </p>
+                    <p>
+                        用户类型：                   
+                    </p>
+                    <p>
+                        验证码 ：                   
+                    </p>                    
+                </div>
+                <div id="rightInputDiv">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <select name="" id="utype">
+                        <option value="货主">我是货主</option>
+                        <option value="司机">我是司机</option>
+                    </select>
+                    <div id="verCodeDiv">
+                        <input id="verCode" type="text">
+                        <span id="autoCode">adsf</span>
+                        <button id="sourceCode"  onclick="getVerificationCode()">换一组</button>                    
+                    </div>
+                </div>
+                <div id="clearFloat"></div>
+                <div id="agreement">
+                    <input id="agree" type="checkbox">
+                    <label for="agree">我已阅读并接受</label>
+                    <a href="javascripg:;">《只点物流用户服务协议》</a> 
+                    <button onclick="register()">同意协议并注册</button>
+                </div>
+            </div>
+            <div id="toLoad">
+                <img src="source/register-2.jpg" alt="">
+                <p>我已注册只点账号</p>
+                <p>我要直接</p>
+                <button onclick="tologin()">登录</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

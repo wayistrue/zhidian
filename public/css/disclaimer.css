@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+div{
+    width:80%;
+    margin:20px auto;
+    border:1px solid #ddd;
+    border-top:2px solid rgb(103, 128, 139);
+    padding:20px 20px;
+}
+dl>dt{
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    margin:20px 0;
+    text-indent: 30px;
+}
+div>hr{
+    margin:20px 0;
+}

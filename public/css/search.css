@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:80px;
+}
+iframe{
+    width:100%;
+    height:80px;
+}
+footer{
+    width:100%;
+    height:200px;
+}
+footer>iframe{
+    width:100%;
+    height:100%;
+}
+.overall{
+    width:100%;
+    border:1px solid #ddd;
+    margin:30px 0;
+}
+.overall>div>.left{
+    width:20%;
+    float: left;
+}
+.overall>p{
+    width:20%;
+    text-align: center;
+    padding:10px 0;
+}
+.overall>div>.left>.searchPath{
+    border:1px solid #ddd;
+    width:100%;
+}
+.overall>div>.right{
+    width:80%;
+    float: left;
+    padding:20px 60px;
+    position: relative;
+}
+.overall>div>.right>h2:first-child{
+    text-align: center;
+}
+.overall>div>.right>p:nth-child(2){
+    font-size: 10px;
+    color:orange;
+    text-align: right;
+}
+.overall>div>.right>div:nth-child(3){
+    border:1px solid orange;
+    width:102px;
+    height:26px;
+    border-radius: 10%;
+    margin: 10px auto;
+    position: relative;
+}
+.overall>div>.right>div:nth-child(3)>button{
+    width:50px;
+    height:24px;
+    outline:0;
+    border:0;
+}
+.overall>div>.right>div:nth-child(3)>button:first-child{
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    position: absolute;
+    background: orange;
+    color:#fff;
+    left: 0;
+}
+.overall>div>.right>div:nth-child(3)>button:last-child{
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    position: absolute;
+    right: 0;
+    background: #fff;
+    color:orange;
+}
+.overall>div>.right>hr{
+    margin-bottom: 10px;
+    background: #ddd;
+}
+.overall>div>.right>.choosePlace{
+    width:300px;
+    border:1px solid #ddd;
+    border-radius: 2px;
+    padding:2px;
+    font-size: 12px;
+    margin:10px;
+}
+.overall>div>.right>.choosePlace>input{
+    border:0;
+    outline:0;
+}
+.overall>div>.right>.choosePlace>button{
+    outline:0;
+    border:0;
+    width:15px;
+    background: #fff;
+}
+.overall>div>.right>.search{
+    width:60px;
+    height:22px;
+    background: orange;
+    border-radius: 4px;
+    color:#fff;
+    outline:0;
+    border:0;
+}
+.overall>div>.right>.search:hover{
+    background: rgb(190, 125, 3);
+}
+.overall>div>.right>.tabs{
+    display: none;
+    height:100px;
+    position: absolute;
+    left:260px;
+}
+.overall>div>.right>.tabs>#tab>li{
+    list-style: none;
+    float: left;
+    padding:0 6px;
+}
+.overall>div>.right>.tabs>#tab>li>a{
+    text-decoration: none;
+    color:rgb(68, 66, 66);
+}
+.overall>div>.right>.tabs>#tab>li~li{
+    border-left: 1px solid #ddd;
+}
+.overall>div>.right>.tabs>#container{
+    position: relative;
+}
+.overall>div>.right>.tabs>#container>#content1,
+.overall>div>.right>.tabs>#container>#content2,
+.overall>div>.right>.tabs>#container>#content3{
+    position: absolute;
+    width:100px;
+    height:100px;
+    padding:10px;
+    border:1px solid #ddd;
+    border-top: none;
+    top:20px;
+    background: #fff;
+}
+.overall>div>.right>.tabs>#container>#content1{
+    z-index: 3;
+}
+.overall>div>.right>.tabs>#container>#content1{
+    z-index: 2;
+}
+.overall>div>.right>.tabs>#container>#content1{
+    z-index: 1;
+}
+.overall>div>.right>.tabs>#container>#content1>ul,
+.overall>div>.right>.tabs>#container>#content2>ul,
+.overall>div>.right>.tabs>#container>#content3>ul{
+    list-style: none;
+}
+.overall>div>.right>.tabs>#container>#content1>ul>li,
+.overall>div>.right>.tabs>#container>#content2>ul>li,
+.overall>div>.right>.tabs>#container>#content3>ul>li{
+    float: left;
+}
+
+
+
+
+.right>#info{
+    width:1020px;
+    margin:0 auto;
+}
+.right>#info>ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.right>#info>ul>li{
+    width:235px;
+    height:381px;
+    border:1px solid rgb(201, 201, 201);
+    list-style: none;
+    margin:10px 0;  
+    border-radius: 12px;
+    box-sizing: border-box;
+    position: relative;
+}
+.right>#info>ul>li:hover{
+    box-shadow: 0px 0px 12px 4px rgb(241, 241, 241);
+}
+.right>#info>ul>li>.infoContent{
+    width:100%;
+    height:341px;
+    box-sizing: border-box;
+    padding:20px 16px;
+}
+.right>#info>ul>li>.btn>a{
+    width:116px;
+    height:40px;
+    color:#fff;
+    background:#66b6b4;
+    position: absolute;
+    bottom:0px;
+    border-bottom-left-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:8px;
+}
+.right>#info>ul>li>.btn>.btnL{
+    left: 0px;
+}
+.right>#info>ul>li>.btn>.btnR{
+    right:0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 12px;
+}
+.carInfo{
+    width:120px;
+    height:40px;
+    padding-left:8px;
+}
+.titleInfo{
+    background:#66b6b4;
+    color:#fff;
+    font-size:12px;
+    padding:2px 2px;
+}
+.right>#info>ul>li>.infoContent>h2{
+    font-size:14px;
+    margin-bottom:26px;
+}
+.right>#info>ul>li>.infoContent>p{
+    margin:5px 0;
+}
+.right>#info>ul>li>.infoContent>.lengthP{
+    border:1px solid #66b6b4;
+    display: table;
+    color:#66b6b4;
+}
+.right>#info>ul>li>.infoContent>.timeP{
+    position: relative;
+}
+.right>#info>ul>li>.infoContent>p>.beginTime,.right>#info>ul>li>.infoContent>p>.endTime{
+    display: inline-block;
+    border:1px solid #ddd;
+    width:80px;
+    height:40px;
+    position: absolute;
+    font-size:14px;
+}
+.right>#info>ul>li>.infoContent>p>.beginTime{
+    left: 0px;
+}
+.right>#info>ul>li>.infoContent>p>.endTime{
+    right: 0px;
+}
+.right>#info>ul>li>.infoContent>p>.midTemp{
+    position: absolute;
+    left: 91px;
+    top:10px;
+}
+.right>#info>ul>li>.infoContent>.ticketPrice{
+    border:1px solid orange;
+    display: table;
+    margin-top:55px;
+    padding:0px;
+}
+.right>#info>ul>li>.infoContent>p>.carPrice{
+    background:orange;
+    color:#fff;
+    font-size:16px;
+}
+.right>#info>ul>li>.infoContent>p>.carticket{
+    color:orange;
+    font-size:16px;
+    height:100%;
+}
+.right>#info>ul>li>.infoContent>.price{
+    width:135px;
+    color:orange;
+    font-size:24px;
+    text-align: right;
+}

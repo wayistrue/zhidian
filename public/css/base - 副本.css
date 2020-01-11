@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+}
+a{
+    color:rgb(105, 204, 221);
+    text-decoration: none;
+}
+a:link{
+    color:rgb(105, 204, 221);
+}
+a:visited{
+    color:rgb(105, 204, 221);
+}
+a:hover{
+    color:rgb(86, 235, 27);
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+a:active{
+    color:rgb(238, 185, 11);
+}
+#outDiv{
+    width:100%;
+    margin:0 auto;
+}
+.myHeader1,.myHeader2,#loadDiv{
+    width:25%;
+    height: 80px;
+    /*border:1px solid #faf;*/
+    float: left;
+    box-sizing: border-box;
+    padding-left:6%;
+}
+.myHeader2{
+    width:60%;
+    padding-left:60px;
+    padding-top:20px;
+    font-size:18px;
+}
+#loadDiv,#loadDiv1,#loadDiv2{
+    width:15%;
+    margin-top:30px;
+    color:orange;
+}
+#lbPic,#lbImg{
+    width:100%;
+    height:400px;
+}
+h2{
+    margin:100px;
+}
+#allInfoDiv{
+    width:1000px;
+    height:800px;
+    border:1px solid saddlebrown;
+    margin:0 auto;
+}
+.infoDiv{
+    width:230px;
+    height:360px;
+    border:1px solid rgb(97, 95, 95);
+    box-shadow: 0px 0px 10px 10px rgb(199, 199, 199);
+    float: left;
+    margin:40px;
+    border-radius: 3%;
+    box-sizing: border-box;
+    margin:10px 10px;
+    padding:20px;
+}
+p{
+    margin:10px 0;
+}
+.pClass1{
+    font-size:12px;
+}
+.pClass2{
+    font-size:16px;
+    overflow: auto;
+}
+.mileDiv{
+    border:1px solid rgb(2, 134, 134);
+    color:rgb(2, 134, 134);
+}
+.priceDiv{
+    width:100%;
+}
+.carSpan{
+    color:#fff;
+    background:orange;
+    font-size:12px;
+    border:1px solid orange;
+}
+.ticketSpan{
+    color:orange;
+    background:#fff;
+    font-size:12px;
+    border:1px solid orange;
+}
+.priceSpan{
+    color:orange;
+    background:#fff;
+    font-size:18px;
+}
+.infoBtn,.waitBtn{
+    width:50%;
+    height:30px;
+    background:rgb(3, 168, 180);
+    color:#fff;
+    margin-top:30px;
+    float: left;
+}
+.waitBtn{
+   
+}
+.spanInfo{
+    color:#fff;
+    background:rgb(2, 129, 108);
+    font-size:16px;
+}
+.spanTime{
+    border:1px dotted #ddd;
+    width:66px;
+    background:#fafafa;
+    font-size:12px;
+    overflow: auto;
+}
+li{
+    float: left;
+    margin:10px 20px;
+}

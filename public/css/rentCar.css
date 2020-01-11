@@ -1,0 +1,211 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    width:100%;
+    height:80px;
+}
+iframe{
+    width:100%;
+    height:80px;
+}
+.rentCarBanner{
+    width:100%;
+    height:480px;
+}
+.rentCarBanner>img{
+    width:100%;
+    height:100%;
+}
+.superiority{
+    width:100%;
+    height:324px;
+    background:rgba(230, 228, 228, 0.8);
+}
+.superiority>h3{
+    text-align: center;
+    padding:30px 0; 
+}
+.superiority>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.superiority>ul>li{
+    width:113px;
+    height:113px;
+}
+.superiority>ul>.li1{
+    background:rgb(39, 128, 150);
+    border-radius: 50%;
+}
+.superiority>ul>.li1>img{
+    width:70px;
+    position: relative;
+    left:24px;
+    top:30px;
+    transition: 1s;
+}
+.superiority>ul>.li1>h4{
+    position: relative;
+    left:22px;
+    top:70px;
+}
+.superiority>ul>.li1>p{
+    font-size: 12px;
+    position: relative;
+    left:2px;
+    top:80px;
+}
+.superiority>ul>.li2{
+    background:rgb(177, 78, 32);
+    border-radius: 50%;
+}
+.superiority>ul>.li2>img{
+    width:60px;
+    position: relative;
+    left:25px;
+    top:16px;
+    transition: 1s;
+}
+.superiority>ul>.li2>h4{
+    position: relative;
+    left:22px;
+    top:38px;
+}
+.superiority>ul>.li2>p{
+    font-size: 12px;
+    position: relative;
+    left:2px;
+    top:48px;
+}
+.superiority>ul>.li3{
+    background:rgb(41, 165, 107);
+    border-radius: 50%;
+}
+.superiority>ul>.li3>img{
+    width:60px;
+    position: relative;
+    left:26px;
+    top:30px;
+    transition: 1s;
+}
+.superiority>ul>.li3>h4{
+    position: relative;
+    left:22px;
+    top:63px;
+}
+.superiority>ul>.li3>p{
+    font-size: 12px;
+    position: relative;
+    left:5px;
+    top:71px;
+}
+.superiority>ul>.li1>img:hover,.superiority>ul>.li2>img:hover,.superiority>ul>.li3>img:hover{
+    transform: rotate(360deg);
+}
+.superInfo{
+    width:100%;
+}
+.superInfo>h3{
+    padding:30px 0;
+    text-align: center;
+}
+.superInfo>ul{
+    width:100%;
+    height:230px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.superInfo>ul>li{
+    width:20%;
+    height:100%;
+    text-align: center;
+}
+.superInfo>ul>li>h4,.superInfo>ul>li>p{
+    margin-bottom:10px;
+}
+.superInfo>ul>li>p{
+    font-size: 14px;
+}
+.superiorityBg{
+    width:100%;
+    background:rgba(230, 228, 228, 0.8);
+}
+.superiorityBg>h3{
+    text-align: center;
+    padding:30px;
+}
+.superiorityBg>ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    padding-bottom:30px;
+}
+.superiorityBg>ul>li>p{
+    padding:6px;
+}
+.aa{
+    padding-left:60px;
+}
+.cc{
+    padding-right:60px;
+}
+.rental{
+    width:100%;
+    position: relative;
+}
+.rental>img{
+    width:80%;
+    padding:10px 10% 60px;
+}
+.rental>h1{
+    position: absolute;
+    left: 42%;
+    top:60px;
+    color:white;
+}
+.rental>div{
+    width:30%;
+}
+.rental>div>.span1,.rental>div>.span2{
+    width:140px;
+    height:45px;
+    display: inline-block;
+    position: absolute;
+    background-image: url("../source/myAppImg.png");
+    background-repeat: no-repeat;
+    background-size:306px 508px;
+}
+.rental>div>.span1{
+    left:38%;
+    top:120px;
+    background-position: 8px 10px;
+}
+.rental>div>.span2{
+    left:52%;
+    top:120px;
+    background-position: 10px -105px;
+}
+.rental>.QRcode{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:186px;
+    left:47%;
+}
+.rental>.QRcode>img{
+    width:100%;
+    height:100%;
+}
+footer{
+    width:100%;
+    height:200px;
+}
+footer>iframe{
+    width:100%;
+    height:100%;
+}

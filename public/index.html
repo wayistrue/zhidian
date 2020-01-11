@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="" >
+    <meta name="keywords" content="">
+    <title>只点物流平台</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body onload="showLbPic()">
+    <!-- head -->
+    <div id="head">
+        <div class="middleContent">
+            <!-- logo -->
+            <div id="logo">
+                <img src="source/wuliu-logo.png" alt="">
+            </div>
+            <!-- 导航 -->
+            <div id="nav">
+                <ul>
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="login.html">发布资源</a>
+                    </li>
+                    <li>
+                        <a href="search.html">搜索资源</a>
+                    </li>
+                    <li>
+                        <a href="rentCar.html">我要租车</a>
+                    </li>
+                    <li>
+                        <a href="appDownload.html">APP下载</a>
+                    </li>
+                    <li>
+                        <a href="register_enterprise.html">大客户通道</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="loadReg">
+                <a href="login.html">登录</a> | 
+                <a href="register_woseek.html">注册</a>
+            </div>
+            <div id="welLoad">
+                <span>欢迎用户：</span><span></span>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div id="banner">
+        <!-- <a href="javascript:alert('我还不能跳转')">
+            <img id="bannerImg" src="./source/banner10.png" alt="图片损坏，无法显示">
+        </a> -->
+        <div id="btn-left"></div>
+      <ul id="ul-imgs" style="width:5000px; margin-left:0px;">
+        <li><a href="javascript:;"><img src="image/carousel_item/banner2_con.png"></a></li>
+        <li><a href="javascript:;"><img src="image/carousel_item/banner2Bg.png"></a></li>
+        <li><a href="javascript:;"><img src="image/carousel_item/banner4_con.jpg"></a></li>
+        <li><a href="javascript:;"><img src="image/carousel_item/carInfoBg.png"></a></li>
+        <!--注意！最后li个数要比实际图片张数多1，最后一个li里的img是重复第一张li的图片-->
+        <li><a href="javascript:;"><img src="image/carousel_item/banner2_con.png"></a></li>
+      </ul>
+      <ul id="ul-idxs">
+        <!--虽然li个数比实际图片张数多1，但小圆点的个数不必多1-->
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div id="btn-right"></div>
+    </div>
+    <!-- content -->
+    <div id="content">
+        <h3>实时货源信息展示</h3>
+        <div id="info">
+            <ul>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="infoContent">
+                        <h2><span></span></h2>
+                        <p>
+                            <span class="titleInfo">需求</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">起</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p>
+                            <span class="titleInfo">终</span>
+                            <span class="carInfo"></span>
+                        </p>
+                        <p class="lengthP"></p>
+                        <p>装货时间</p>
+                        <p class="timeP">
+                            <span class="beginTime"></span>
+                            <span class="midTemp">至</span>
+                            <span class="endTime"></span>
+                        </p>
+                        <p class="ticketPrice">
+                            <span class="carPrice">整车价</span>
+                            <span class="carticket">有票</span>
+                        </p>
+                        <p class="price"></p>
+                    </div>
+                    <div class="btn">
+                        <a class="btnL" href="javascript:alert('点我没用')">详情</a>
+                        <a class="btnR" href="javascript:alert('点我没用')">带抢单</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="superiority">
+        <img src="./source/you_shi_bg.jpg" alt="">
+        <div id="superiorityTitle">平台优势</div>
+        <div id="superiorityItems">
+            <ul>
+                <li>
+                    <img src="./source/ys_bg1.png" alt="">
+                    <button>精准推送</button>
+                </li>
+                <li>
+                    <img src="./source/ys_bg2.png" alt="">
+                    <button>专业运输</button>
+                </li>
+                <li>
+                    <img src="./source/ys_bg3.png" alt="">
+                    <button>实时跟踪</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="QR">
+        <img src="source/pic3.jpg" alt="">
+        <div id="QRTitle">更多资讯 尽在官方APP</div>
+        <ul>
+            <li>
+                <img src="./source/app_owner.png" alt="">
+                <p>只点物流车主版</p>
+            </li>
+            <li>
+                <img src="./source/app_dirver.png" alt="">
+                <p>只点物流司机版</p>
+            </li>
+            <li>
+                <img src="./source/app_trailer.png" alt="">
+                <p>只点物流拖车版</p>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <iframe src="footer.html" scrolling="no" frameborder="0"></iframe>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>

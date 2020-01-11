@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APP下载</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        #appDown{
+            width:100%;
+            height:500px;
+            position: relative;
+            margin-bottom:80px;
+        }
+        #appDown>#bg-img{
+            width:100%;
+            height:100%;
+        }
+        #appDown>#content{
+            width:800px;
+            height:100%;
+            position: absolute;
+            left:50%;
+            top:0px;
+            transform: translate(-400px);
+        }
+        #appDown>#content>#appTitle{
+            position: absolute;
+            top:30px;
+            left: -30px;
+        }
+        #appDown>#content>div{
+            position: absolute;
+            top:90px;
+            left:300px;
+            text-align: center;
+        }
+        #appDown>#content>div>h1{
+            margin-bottom:10px;
+            color: #fff;
+        }
+        #appDown>#content>div>ul{
+            list-style: none;
+            width:100%;
+        }
+        #appDown>#content>div>ul>li{
+            width:120px;
+            float: left;
+            margin:20px;
+            text-align: center;
+            padding:10px 0;
+        }
+        #appDown>#content>div>ul>li>img{
+            width:100%;
+            margin:10px;
+        }
+        #appDown>#content>div>ul>li>p{
+            font-size:14px;
+            color:#fff;
+            margin-top:-5px;
+            margin-left:10px;
+        }
+        #platformDownload{
+            width:1000px;
+            background:#ddd;
+            height:950px;
+            margin:0 auto;
+            position: relative;
+            margin-bottom: 50px;
+        }
+        #platformDownload>#downbg{
+            width:100%;
+            height:100%;
+        }
+        #platformDownload>#downTop{
+            width:100%;
+            height:300px;
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+        #platformDownload>#downTop>h1{
+            color:#fff;
+            text-align: center;
+            margin-top:40px;
+        }
+        #platformDownload>#downTop>#downbg1{
+            width:160px;
+            margin-left:28%;
+            margin-top:60px;
+            margin-right: 120px;
+        }
+        #platformDownload>#downTop>#downbg2{
+            width:160px;
+            text-align: center;
+        }
+        #platformDownload>#downMiddle{
+            width:100%;
+            height:550px;
+            position: absolute;
+            top:260px;
+            left:0px;
+            background:rgba(94, 88, 88,0.3);
+        }
+        #downMiddle>ul{
+            list-style: none;
+        }
+        #downMiddle>ul>li{
+            padding:0px 0;
+            box-sizing: border-box;
+            position: relative;
+        }
+        #downMiddle>ul>li>span{
+            margin-left:160px;
+            width:120px;
+            height:120px;
+            background:no-repeat;
+            display: inline-block;
+            background-image: url("source/myAppImg.png");
+            background-repeat: no-repeat;
+            background-size:306px 508px;
+            background-position:-188px 10px ;
+        }
+        #downMiddle>ul>li>div{
+            display: inline-block;
+            padding:30px;
+            color:#fff;
+            position: relative;
+        }
+        #downMiddle>ul>li>div>h2{
+            padding-bottom:10px;
+        }
+        #downMiddle>ul>li>img{
+            display: inline-block;
+            position: absolute;
+            right:14%;
+            top:70px;
+        }
+        #platformDownload>#downBottom{
+            width:100%;
+            height:100px;
+            position: absolute;
+            bottom:20px;
+            left:0px;
+            text-align: center;
+            color:#fff;
+            line-height: 100px;
+        }
+        #platformDownload>#downBottom>img{
+            padding-top:10px;
+        }
+        #platformDownload>#downBottom>span{
+            font-size:36px;
+            padding-left:20px;
+        }
+        footer{
+            width:100%;
+            height:200px;
+            background:#eee;
+        }
+        footer>div{
+            width:400px;
+            margin:0 auto;
+            display: flex;
+            padding-top:40px;
+        }
+        footer>div>ul{
+            list-style: none;
+            font-size:14px;
+            color:#66b6b4;
+        }
+        footer>div>ul>li{
+            float: left;
+            padding:10px 20px;
+        }
+        footer>#hrColor{
+            border:1px solid #66b6b4;
+            display: inline-block;
+            width:60%;
+            height:0px;
+            margin-left:20%;
+        }
+        footer>p{
+            font-size:14px;
+            color:#66b6b4;
+            text-align: center;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <div class="middleContent">
+            <!-- logo -->
+            <div id="logo">
+                <img src="source/wuliu-logo.png" alt="">
+            </div>
+            <!-- 导航 -->
+            <div id="nav">
+                <ul>
+                        <li>
+                                <a href="index.html">首页</a>
+                            </li>
+                            <li>
+                                <a href="login.html">发布资源</a>
+                            </li>
+                            <li>
+                                <a href="search.html">搜索资源</a>
+                            </li>
+                            <li>
+                                <a href="rentCar.html">我要租车</a>
+                            </li>
+                            <li>
+                                <a href="appDownload.html">APP下载</a>
+                            </li>
+                            <li>
+                                <a href="register_enterprise.html">大客户通道</a>
+                            </li>
+                </ul>
+            </div>
+            <div id="loadReg">
+                <a href="login.html">登录</a> | 
+                <a href="register_woseek.html">注册</a>
+            </div>
+        </div>
+    </div>
+    <div id="appDown">
+        <img id="bg-img" src="source/app_titlebg.jpg" alt="">
+        <div id="content">
+            <img src="source/app_phone.png" alt="" id="appTitle">
+            <div>
+                <h1>只点物流客户端</h1>
+                <h1>完美物流 尽在只点</h1>
+                <ul>
+                    <li>
+                        <img src="source/more.png" alt=""><br>
+                        <img src="source/app_owner.png" alt="">
+                        <p>只点车主端</p>
+                    </li>
+                    <li>
+                        <img src="source/more.png" alt="">
+                        <img src="source/app_owner.png" alt="">
+                        <p>只点司机端</p>
+                    </li>
+                    <li>
+                        <img src="source/more.png" alt="">
+                        <img src="source/app_owner.png" alt="">
+                        <p>只点拖车端</p>
+                    </li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+    <!-- 平台优势 -->
+    <div id="superiority">
+        <img src="./source/you_shi_bg.jpg" alt="">
+        <div id="superiorityTitle">平台优势</div>
+        <div id="superiorityItems">
+            <ul>
+                <li>
+                    <img src="./source/ys_bg1.png" alt="">
+                    <button>精准推送</button>
+                </li>
+                <li>
+                    <img src="./source/ys_bg2.png" alt="">
+                    <button>专业运输</button>
+                </li>
+                <li>
+                    <img src="./source/ys_bg3.png" alt="">
+                    <button>实时跟踪</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 相关平台下载 -->
+    <div id="platformDownload">
+        <img id="downbg" src="source/app_downbg.png" alt="">
+        <div id="downTop">
+            <h1>相关平台下载</h1>
+            <img id="downbg1" src="source/more.png" alt="">
+            <img id="downbg2" src="source/more.png" alt="">            
+        </div>
+        <div id="downMiddle">
+            <ul>
+                <li>
+                    <span></span>
+                    <div>
+                        <h2>只点物流(车主端)</h2>
+                        <p>更新版本：2.1.0</p>
+                        <p>软件大小：42M</p>
+                        <p>更新日期：2019.09.08</p>
+                        <p>更新说明：全新版</p>      
+                    </div>
+                    <img src="source/pcload.png" alt="">  
+                </li>
+                <li>
+                    <span></span>
+                    <div>
+                        <h2>只点物流(车主端)</h2>
+                        <p>更新版本：2.1.0</p>
+                        <p>软件大小：42M</p>
+                        <p>更新日期：2019.09.08</p>
+                        <p>更新说明：全新版</p>      
+                    </div>
+                    <img src="source/pcload.png" alt="">  
+                </li>
+                <li>
+                    <span></span>
+                    <div>
+                        <h2>只点物流(车主端)</h2>
+                        <p>更新版本：2.1.0</p>
+                        <p>软件大小：42M</p>
+                        <p>更新日期：2019.09.08</p>
+                        <p>更新说明：全新版</p>      
+                    </div>
+                    <img src="source/pcload.png" alt="">  
+                </li>
+            </ul>
+        </div>
+        <div id="downBottom">
+            <img src="source/iconhorn.png" alt="">
+            <span>只点物流客户端(货主端)马上上线！</span>
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div>
+            <ul>
+                <li>免费声明</li>
+                <li>帮助中心</li>
+                <li>关于我们</li>
+                <li>联系我们</li>
+            </ul>           
+        </div>
+        <span id="hrColor"></span>
+        <p>2017-2018 北京只点在线科技有限公司 版权所有 京ICP备16019095</p>
+    </footer>
+</body>
+</html>

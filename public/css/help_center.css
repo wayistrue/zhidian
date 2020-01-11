@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:80px;
+}
+iframe{
+    width:100%;
+    height:80px;
+}
+footer{
+    width:100%;
+    height:200px;
+}
+footer>iframe{
+    width:100%;
+    height:100%;
+}
+.centerDiv{
+    border-top:2px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    width:100%;
+}   
+.centerDiv>.content{
+    border-top:1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    width:100%;
+    height:90%;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.centerDiv>.content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.centerDiv>.content>ul{
+    width:20%;
+    list-style: none;
+    padding:20px 0;
+    float: left;
+}
+.centerDiv>.content>ul>li{
+    text-align: center;
+    margin:10px 0;  
+}
+.centerDiv>.content>ul>li:hover{
+    cursor: pointer;
+}
+.checkLi{
+    color:orange;
+}
+.noCheckLi{
+    color:rgb(0, 153, 255);
+}
+.centerDiv>.content>ul>li>div{
+    font-size:12px;
+    margin:10px 0;
+    display: none;
+}
+.centerDiv>.content>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.centerDiv>.content>.rightContent{
+    width:80%;
+    border-left:1px solid #ddd; 
+    float: left;
+    padding:30px 20px;
+}
+.centerDiv>.content>.rightContent>h2{
+    text-align: center;
+}
+.centerDiv>.content>.rightContent>p:nth-child(2){
+    text-align: right;
+    font-size:14px;
+    color:orange;
+}
+.centerDiv>.content>.rightContent>hr{
+    border-color:#fff;
+    margin:10px 0;
+}
+.centerDiv>.content>.rightContent>ul{
+    list-style: none;
+    width:100%;
+    margin:10px 0;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.centerDiv>.content>.rightContent>ul>li{
+    width:40%;
+    display: flex;
+    padding-left: 40px;
+    margin:20px 0;
+}
+.centerDiv>.content>.rightContent>ul>li>img,
+.centerDiv>.content>.rightContent>ul>li>div{
+    float: left;
+    margin-right:20px;
+}
+.centerDiv>.content>.rightContent>ul>li>img{
+    width:50px;
+    height:50px;
+}
+.centerDiv>.content>.rightContent>.contactus{
+    margin:20px 60px;
+    margin-bottom: 60px;
+}
+.centerDiv>.content>.rightContent>.contactus>p{
+    margin:10px 0;
+}
+.centerDiv>.content>.rightContent>.contactPic{
+    margin:0 60px;
+}

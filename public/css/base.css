@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color:#63b8b7;
+}
+a:hover{
+    color:orange;
+}
+a:active{
+    font-size:18px;
+}
+.clearDiv{
+    clear: both;
+}
+#slideshow,#slideshowImg{
+    width:100%;
+}
+#highest{
+    width:100%;
+    height:80px;
+}
+#icon{
+    width:25%;
+    height:80px;
+    padding-left:20px;
+    float: left;
+}
+#nav{
+    width:65%;
+    height:80px;
+    text-align: center;
+    float: left;
+}
+#nav>ul{
+    list-style: none;
+    font-size:18px;
+    color:rgb(106, 192, 250);
+    padding:28px 0;
+}
+#nav>ul>li{
+    float: left;
+    margin:0 20px;
+}
+h3{
+    margin:30px auto;
+    text-align: center;
+}
+#infoDiv{
+    width:80%;
+    margin:0 auto;
+    border:1px solid rgb(252, 121, 28);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.allInfo{
+    width:21%;
+    height:310px;
+    margin:0 2%;
+    position: relative;
+    margin-top:20px;
+}
+.info{
+    width:100%;
+    height:280px;
+    position: relative;
+    border-top-left-radius:2%;
+    border-top-right-radius:2%;
+    border:1px solid rgb(230, 230, 230);
+    font-size:12px;
+    padding:14px;
+}
+.info:hover{
+    box-shadow: 0px 0px 2px 2px rgb(240, 240, 240);
+}
+.button1,.button2{
+    width:50%;
+    height:30px;
+    position: absolute;
+    background:#72d1d0;
+    color:#fff;
+    outline: 0;
+    border:0;
+}
+.button1{
+    left:0;
+    border-bottom-left-radius:16%;
+}
+.button2{
+    right: 0;
+    border-bottom-right-radius:16%;
+    border-left:1px solid rgb(230, 230, 230);
+}
+button:hover{
+    background:#66b6b4;
+}
+#ko{
+    width:100%;
+    height:300px;
+    border:1px solid rgb(252, 121, 28);
+}
+.titleSpan{
+    color:#fff;
+    background:#66b6b4;
+    font-size:14px;
+    padding:1px 4px;
+}
+.info>p{
+    margin:10px 0;
+}
+.info>.lengthP{
+    width:100px;
+    height:24px;
+    color:#66b6b4;
+    border:1px solid #66b6b4;
+    line-height:24px;
+    text-align: center;
+}
+.timeImg{
+    margin:-4px;
+}
+.timeSpan{
+    margin-left:5px;
+}
+.beginTime{
+    display: inline-block;
+    width:70px;
+    height:34px;
+    border:1px solid #ddd;
+}
